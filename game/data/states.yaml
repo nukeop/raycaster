@@ -1,0 +1,9 @@
+states:
+  - name: 'Boot'
+    path: ./boot.js
+  - name: 'Load'
+    path: ./load.js
+  - name: 'Main'
+    path: ./main.js
+
+start: 'Boot'
